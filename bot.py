@@ -1,5 +1,4 @@
 from pyrogram import Client, idle
-from plugins.cb_data import app as Client
 from config import *
 
 
