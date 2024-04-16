@@ -1,5 +1,5 @@
 from pyrogram import Client, idle
-from plugins.cb_data import app as Client2
+from plugins.cb_data import app as Client
 from config import *
 
 
@@ -18,7 +18,7 @@ bot = Client(
            
 
 if STRING:
-    apps = [Client2,bot]
+    apps = [Client,bot]
     for app in apps:
         app.start()
     idle()
