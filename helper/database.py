@@ -1,9 +1,9 @@
 import pymongo
 import os
 from helper.date import add_date
-from config import *
-mongo = pymongo.MongoClient(DB_URL)
-db = mongo[DB_NAME]
+from config import 
+mongo = pymongo.MongoClient(mongodb+srv://mraprguilds:<Ammbappur33@>@clustermrapr.werol.mongodb.net/?retryWrites=true&w=majority&appName=clustermrapr)
+db = mongo[clustermrapr]
 dbcol = db["user"]
 
 # Total User
