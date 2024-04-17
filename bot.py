@@ -1,4 +1,4 @@
-from pyrogram import Client, idle
+
 from config import *
 
 
